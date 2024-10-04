@@ -1,10 +1,10 @@
 
 import css from './container.module.css'
 
-const Container =() => {
+const Container =({children}) => {
     return (
        <div className={css.container}>
-        <h1>Children in reacts</h1>
+        {children}
        </div>
     )
 }

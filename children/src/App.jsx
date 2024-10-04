@@ -1,14 +1,21 @@
 import List from "./List"
-
+import Container from "./Container"
 
 
 function App() {
   const arr = ["shakir" , "prajwal" , "adnan" , "noor" , "fidyan"]
+    // let arr ;
 
   return (
     <>
-    <h1>Learn MERN Stack</h1>
+
+      <Container>
+      <h1>Learn MERN Stack</h1>
+     
+      </Container>
+      <Container>
       <List list={arr}/>
+      </Container>
       
     </>
   )
